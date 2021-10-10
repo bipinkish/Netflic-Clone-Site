@@ -1,0 +1,173 @@
+html, body {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* NAVBAR STYLING */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 25px;
+}
+
+.register {
+	margin-right: 10px;
+}
+
+.binge{
+	color:white;
+	font-size: 24px;
+	margin-right:50px;
+	transition:color 0.5s;
+	position:relative;
+	top:5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.binge:hover{
+	color:#adadad;
+}
+
+/* MAIN PAGE STYLING */
+
+.bodyContent {
+	width:70%;
+	padding:110px; 
+	text-align : center;
+	margin: auto;
+	text-align: center;
+}
+
+hr {
+	border: dotted #444747c9 6px;
+	border-bottom: 0;
+	width: 15%;
+}
+
+.deviceContent {
+	margin: 100px auto 100px auto;
+	width: 100%;
+	padding: 5px 150px;
+	background-color: black;
+	color: white;
+}
+
+.tv img {
+	width: 300px;
+	margin-right: 100px;
+}
+
+.tv {
+	display: flex;
+	align-items: center;
+	height: 500px;
+}
+
+/* LOGIN AND REGISTER BOX STYLING */
+
+.form-signin {
+	width:100%;
+	max-width:400px;
+	padding: 50px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom:100px;
+}
+
+
+.form-control{
+	background-color:#333333;
+	border:0;
+	color:white;
+	margin-bottom: 15px;
+}
+.form-control:focus{
+	border:0;
+	color:white;
+	background-color:#333333;
+}
+
+label {
+  color:#8c8c8c;
+  opacity: 1;
+}
+
+.loginnow,.registernow{
+	margin-top:30px;
+	background-color: #E50914;
+}
+
+.loginnow:hover,.registernow:hover,.loginnow:active,.registernow:active{
+	color:white;
+	background-color: #c40912; 
+}
+
+.form-signin select {
+	background-color:#333333;
+	color:white;
+	border:0;
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+
+
+
+
+/* MAIN SCREEN CONTENT */
+
+.download{
+	background-color: #E50914;
+	color:white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.download:hover{
+	color:white;
+	background-color: #c40912; 
+}
+
+
+/* FOOTER CONTENT */
+
+footer{
+	width:100%;
+	text-align:center;
+	padding:20px 0;
+	color: white;
+	background-color: black;
+}
+
+footer p{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom:0;
+	font-size:17px;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
